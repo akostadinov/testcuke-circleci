@@ -28,6 +28,7 @@ jobs:
   build:
     parallelism: 2
     executor: ruby/default
+    resource_class: small
     steps:
       - checkout
       - run:
